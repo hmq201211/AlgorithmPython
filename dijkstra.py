@@ -10,6 +10,7 @@ def dijkstra(path):
     parents = {}
     cost = {}
 
+
     def init():
         for k, v in path['start'].items():
             cost[k] = v
